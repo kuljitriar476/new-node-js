@@ -27,8 +27,8 @@ const createEmploy = async function (req, res) {
       message: "employ data created successfully",
       data: employData,
     });
-  } catch (error) {
-    console.log(error);
+  } catch (erroreee) {
+    console.log(erroreee);
   }
 };
 
